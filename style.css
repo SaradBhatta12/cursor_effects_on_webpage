@@ -1,0 +1,34 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+main {
+  font-size: 15vw;
+  font-weight: 800;
+  color: blue;
+  -webkit-text-stroke: white 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.curser {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  transition: all linear 0.3s;
+  mix-blend-mode: difference;
+}
